@@ -23,7 +23,7 @@ header {
   font-family: roboto;
   src: url(fonte/Roboto/Roboto-Black.ttf);
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 @font-face {
   font-family: roboto-normal;
   src: url(fonte/Roboto/Roboto-Medium.ttf);
@@ -607,14 +607,12 @@ br {
   top: 5px;
   left: 45px;
   color: #FF4500;
-
 } */
 /* 
 #noticias{
   height: 1000;
   background-color: red;
   margin-bottom: 500px;
-
 } */
 
 #bck-linha {
@@ -633,12 +631,14 @@ br {
   text-decoration: none;
   text-align: justify;
   color: #000000;
+  font-family: "Open Sans";
 }
 
 .lado_dir_noticias {
   position: relative;
   width: 437.5px;
   height: 524;
+  font-family: "Open Sans";
   /* background-color: red; */
   float: left;
   /* text-align: left; */
@@ -649,7 +649,14 @@ br {
 #text_img2 {
   margin: -89px 160px;
   width: 437.5px;
-  font-size: 15px;
+  font-size: 14px;
+  font-family: "Open Sans";
+  position: relative;
+  top: -20px;
+}
+#fk_2{
+  position: relative;
+  top: 15px;
 }
 
 #img_3 {
@@ -661,6 +668,10 @@ br {
   margin: -189px 160px;
   width: 437.5px;
   font-size: 15px;
+  font-family: "Open Sans";
+  position: relative;
+  top: -2px;
+
 }
 
 #img_4 {
@@ -670,8 +681,11 @@ br {
 
 #text_img4 {
   margin: -289px 160px;
+  font-family: "Open Sans";
   width: 437.5px;
   font-size: 15px;
+  position: relative;
+  top: -10px;
 }
 
 #img_5 {
@@ -681,10 +695,11 @@ br {
 
 #text_img5 {
   margin: -389px 160px;
+  font-family: "Open Sans";
   width: 437.5px;
   font-size: 14px;
   position: relative;
-  top: -8px;
+  top: -18px;
 }
 
 #fk_5 {
@@ -699,13 +714,16 @@ br {
 
 #text_img6 {
   margin: -489px 160px;
+  font-family: "Open Sans";
   width: 437.5px;
-  font-size: 15px;
+  font-size: 14px;
+  position: relative;
+  top: -15px;
 }
 
 #fk_6 {
   position: relative;
-  top: 2px;
+  top: 15px;
 }
 
 /* DOAÇÕES */
@@ -715,7 +733,7 @@ br {
   width: 100%;
   height: 169px;
   float: left;
-  margin-top: 200px;
+  top: 250px;
 }
 
 #doacoes-p1{
